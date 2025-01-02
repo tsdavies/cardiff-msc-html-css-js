@@ -1,0 +1,19 @@
+article {
+    background-color: rgb(51, 45, 128);
+    border: 1px solid rgb(51, 45, 128);
+}
+
+article header {
+    background-color: rgb(250, 212, 243);
+}
+
+article footer {
+    color: rgb(255, 255, 255)
+}
+
+section {
+    border: 1px solid rgb(51, 45, 128);
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(250, 212, 243);
+}

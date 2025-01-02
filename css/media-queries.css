@@ -1,0 +1,28 @@
+/*For screens larger than 1200px (large desktops)*/
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/*For screens between 768px and 1199px (tablets and small desktops)*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/*For screens between 480px and 767px (large phones and tablets)*/
+@media (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/*For screens smaller than 480px (small phones)*/
+@media (max-width: 479px) {
+    body {
+        font-size: 12px;
+        margin: 0;
+    }
+}

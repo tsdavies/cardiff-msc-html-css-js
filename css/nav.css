@@ -1,0 +1,30 @@
+nav button { /*specificity = buttons in nav */
+    border: none rgb(51, 45, 128);
+    background-color: rgb(250, 212, 243);
+    color: rgb(51, 45, 128);
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 0.2em;
+    cursor: pointer;
+    box-shadow: 0.15em 0.15em rgb(179, 110, 152, .5);
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); /* Smooth easing transition */
+    margin: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 200px
+}
+
+nav button:hover { /*specificity = hovered buttons in nav */
+    background-color: white; /*color change on hover */
+    transform: scale(1.2); /*small increase of size on hover */
+}
+
+nav.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Auto-fit with a minimum size */
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    padding: 16px;
+}
